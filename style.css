@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Optimus Princeps';
+    src: url('fonts/OptimusPrinceps.ttf');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #1b1a17;
+    font-family: 'Optimus Princeps';
+}
+
+
+.logo img{
+    width: 30%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 249px;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+header ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 30px;
+}
+
+header ul li:last-child {
+    margin-right: 0;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #a78a6d;
+    padding: 22px 0;
+    display: inline-block;
+    transition: all ease 0.3s;
+    font-size: 18px;
+}
+
+header ul li a:hover {
+    color: #f4efde;
+}
+
+header ul .submenu {
+    position: absolute;
+    width: 200px;
+    background-color: #1b1a17;
+    box-shadow: 0 20px 45px #00000020;
+    margin-top: -50px;
+    opacity: 0;
+    z-index: -999;
+    transition: all ease 0.5s;
+}
+
+header ul li:hover .submenu {
+    z-index: 99;
+    opacity: 1;
+    margin-top: 0;
+}
+
+header ul .submenu li {
+    margin: 0;
+   width: 100%; 
+}
+
+header ul .submenu li a {
+    padding: 15px 20px;
+    display: inline-block;
+    width: 100%;
+}
