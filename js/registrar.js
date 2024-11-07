@@ -50,7 +50,7 @@ function validarNome() {
 
 
 function validarEmail(){
-    const emailRegex = /^[\w-\.]+@[\w-]+\.[\w-]{2,4}$/;
+    const emailRegex = /^[\w-\.]+@[\w-]+\.[\w-]{2,4}(\.?[\w]{2,3})?$/;
     email = document.getElementById("email");
     emaiLabel = document.getElementById("email-label-id");
     if(!emailRegex.test(email.value)){

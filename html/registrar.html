@@ -4,16 +4,16 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Souls Wiki</title>
-<link rel="stylesheet" href="registrar_entrar.css">
+<link rel="stylesheet" href="../css/registrar_entrar.css">
 </head>
 <body>
 
     <div class="voltar">
-        <a class="voltarBtn" href="entrar.html"><img src="imgs/seta-esquerda.png" alt="voltar pagina"></a>
+        <a class="voltarBtn" href="entrar.html" onclick="history.go(-1)"><img src="../imgs/seta-esquerda.png" alt="voltar pagina"></a>
     </div>
 
 
-<form class="FormRegister" id="form">
+<form class="FormRegister" id="form" method="post" action="../cadastro.php">
 
     <div class="InputField">
         <label for="nameTxt">Nome de usuario</label>
@@ -52,13 +52,13 @@
 
     <div class="InputRadio">
         <label>Qual o seu favorito: </label><br><br>
-        <input type="radio" name="preferencia" id="orn" value="Drangon slayer Ornstein" required>
+        <input type="radio" name="preferencia" id="orn" value="Ornstein" required>
         <label for="orn">Drangon slayer Ornstein</label><br>
-        <input type="radio" name="preferencia" id="art" value="Artorias, The AbyssWalker">
+        <input type="radio" name="preferencia" id="art" value="Artorias">
         <label for="art">Artorias, The AbyssWalker</label><br>
-        <input type="radio" name="preferencia" id="cia" value="Lord's Blade Ciaran">
+        <input type="radio" name="preferencia" id="cia" value="Ciaran">
         <label for="cia">Lord's Blade Ciaran</label><br>
-        <input type="radio" name="preferencia" id="haw" value="Hawkeye Gough">
+        <input type="radio" name="preferencia" id="haw" value="Gough">
         <label for="haw">Hawkeye Gough</label><br>
         <input type="radio" name="preferencia" id="none" value="Nenhum">
         <label for="none">Nenhum</label><br>
@@ -74,7 +74,7 @@
     </div>
 </form>
 
-<script src="registrar.js"></script>
+<script src="../js/registrar.js"></script>
 
 </body>
 </html>

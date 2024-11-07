@@ -13,7 +13,7 @@
 body {
     background-color: #1b1a17;
     font-family: 'Optimus Princeps';
-    background-image: url(imgs/artorias_wallpaper.jpg);
+    background-image: url(../imgs/artorias_wallpaper.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 0;

@@ -3,7 +3,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url(imgs/artorias_wallpaper.jpg);
+    background-image: url(../imgs/artorias_wallpaper.jpg);
     background-size: cover; 
     overflow: hidden;
 }
