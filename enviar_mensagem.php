@@ -13,14 +13,14 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     if (!isset($id_users)) {
 
-        header("Location: html/login.php");
+        header("Location: html/entrar.php");
         exit();
     }
 
-    // Insere a nova mensagem no banco de dados
+    // Insere a nova mensagem no banco
     $query = "INSERT INTO mensagens (id_users, mensagens) VALUES ('$id_users', '$mensagem')";
     if ($conn->query($query)) {
-        // Redireciona para a página do chat apos o envio
+        // Redireciona para a página do chat
         header("Location: html/chat.php");
         exit();
     } else {
