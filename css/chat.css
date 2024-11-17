@@ -1,0 +1,75 @@
+
+.chat-box {
+    background-color: rgba(20, 20, 19, 0.8);
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    max-width: 75%;
+    border-top: 1px solid #a78a6d;
+    color: #dbdbdb;
+}
+
+
+.message {
+    background-color: #1b1a17;
+    border: 1px solid #a78a6d;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    color: #dbdbdb;
+    font-family: 'Optimus Princeps', sans-serif;
+}
+
+.message p {
+    margin: 5px 0;
+}
+
+.message strong {
+    color: #a78a6d;
+}
+
+.message small {
+    display: block;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #888;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #a78a6d;
+    background-color: #1b1a17;
+    color: #dbdbdb;
+    resize: none;
+    font-family: 'Optimus Princeps', sans-serif;
+    font-size: 14px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #a78a6d;
+    color: #f4efde;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-family: 'Optimus Princeps', sans-serif;
+}
+
+form button:hover {
+    background-color: #f4efde;
+    color: #1b1a17;
+}

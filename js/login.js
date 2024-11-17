@@ -16,10 +16,22 @@ function isFormValid() {
         document.getElementById("passWarning").style.display,
     ];
 
-    return errors.every(errorDisplay => errorDisplay === "none");}
+    return errors.every(errorDisplay => errorDisplay === "none");
+}
+
+
+function togglePassword() {
+    const password = document.getElementById("passwordId");
+    if(password.type === "password"){
+        password.type = text;
+    }else{
+        password.type = "password";
+    }
+}
+
 
 function checkEmail(){
-    const email = document.getElementById("email").value;
+    const email = document.getElementById("emailId").value;
     const label = document.getElementById("emailWarning");
     if(email === ""){
         label.style.display = "block";
@@ -29,7 +41,7 @@ function checkEmail(){
 }
 
 function checkPassword(){
-    const password = document.getElementById("password").value;
+    const password = document.getElementById("passwordId").value;
     const label = document.getElementById("passWarning");
     if(password === ""){
         label.style.display = "block";

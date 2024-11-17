@@ -9,5 +9,4 @@
     if ($conn->connect_error) {
         die("Erro de conexao: " . $conn->connect_error);
     }
-    echo "Conectado";
 ?>
