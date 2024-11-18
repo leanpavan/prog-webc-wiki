@@ -39,10 +39,9 @@
                     <li><a href="equipamentos.php">Equipamentos
                         <ul class="submenu">
                             <li><a href="magias.php">Feitiços</a></li>
-                            <li><a href="#">Armas</a></li>
+                            <li><a href="armas.php">Armas</a></li>
                             <li><a href="escudos.php">Escudos</a></li>
-                            <li><a href="#">Anéis</a></li>
-                            <li><a href="#">Itens</a></li>
+                            <li><a href="aneis.php">Anéis</a></li>
                         </ul>
                     </a></li>
                     <li><a href="mundo.php">Mundo

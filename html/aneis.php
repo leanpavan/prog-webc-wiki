@@ -5,11 +5,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8"  name="viewport" content="width=device-width, initial-scale=1">
-    <title>Souls Wiki</title>
+    <title>Souls Wiki</title>   
     <link rel="stylesheet" href="../css/classes.css">   
-    <link rel="icon" type="image/x-icon" href="../imgs/favicon.ico"> 
+    <link rel="icon" type="image/x-icon" href="../imgs/favicon.ico">
 </head>
 <body>
+
 <main>
         <header>
             <div class="logo">
@@ -72,86 +73,55 @@
 
 
     </main>
-
+ 
+    <main>
     <section class="home_page">
         <div class="home_content">
-            <h2>Classes | Dark Souls Remastered Wiki</h2>
+            <h2>Anéis | Dark Souls Remastered Wiki</h2>
             <hr>
             <br>
-            <p><strong>Classes</strong> em Dark Souls determinam seus <a href="stats.php">stats</a> e <a href="equipamentos.php">equipamentos</a> inicais. Há 10 Classes que o jogador pode
-                escolher para começar o jogo. Elas estão listadas abaixo:
+            <p><strong>Anéis</strong> são acessórios em <strong>Dark Souls</strong> e Dark Souls Remastered que oferecem vários bônus quando equipados. 
+            Os jogadores podem equipar até 2 anéis, mas não é possível equipar dois do mesmo item. É possível acumular efeitos semelhantes, 
+            como combinar a regeneração de stamina entre um anel e o consumível Flor Verde.
+            <br><br>
+            A versão remasterizada de Dark Souls inclui o equipamento da <strong>DLC Artorias of the Abyss</strong> como parte do jogo base.
             </p>
-
-            <p>
-                Classes não determinam quais armas, itens, armaduras ou feitiços seu personagem pode usar; 
-                elas apenas determinam com o que seu personagem começa o jogo. Conforme você progride no jogo e aumenta seus níveis, seu personagem pode potencialmente assumir qualquer papel, 
-                independentemente da classe. <br> <br>
-
-                Além de escolher uma classe, os jogadores podem escolher uma benção para começar o jogo. 
-                Todos as benções podem ser encontrados no jogo posteriormente, mas escolher um aqui pode permitir que o jogador desfrute de um benefício que normalmente 
-                não teria até muito mais tarde. Um jogador de primeira viagem deve ter cuidado ao escolher benções que permitam entrar em áreas de final de jogo desde o início, 
-                como a Chave Mestra, pois isso pode levá-lo a ficar preso em uma área muito difícil sem o conhecimento ou equipamento para sair. Vale lembrar que a Chave Mestra pode ser usada 
-                infinitamente e que a classe inicial Ladrão já começa o jogo com uma. Escolher uma segunda Chave Mestra como Ladrão é um desperdício de benção.
-            </p>
-
+            <br>
             <hr class="deco">
-            <h3>Classes</h3>
+            <h3>Anéis em Dark Souls</h3>
             <hr class="deco">
 
             <div class="class-images">
                 <div class="class-item">
-                    <p>Guerreiro</p>
-                    <img src="../imgs/warrior-starting-class-male-dark-souls.jpg" alt="Guerreiro">
+                    <p>Anel do Havel</p>
+                    <img src="../imgs/4000.png" alt="Havel">
                 </div>
-
                 <div class="class-item">
-                    <p>Cavaleiro</p>
-                    <img src="../imgs/knight-starting-class-male-dark-souls.jpg" alt="Cavaleiro">
+                    <p>Pacto de Darkmoon Blade</p>
+                    <img src="../imgs/4040.png" alt="Darkmoon Blade">
                 </div>
-                
                 <div class="class-item">
-                    <p>Viajante</p>
-                    <img src="../imgs/wanderer-starting-class-male-dark-souls.jpg" alt="Viajante">
+                    <p>Anel de um ser pequeno</p>
+                    <img src="../imgs/4042.webp" alt="Tiny Being">
                 </div>
-
                 <div class="class-item">
-                    <p>Ladrão</p>
-                    <img src="../imgs/thief-starting-class-male-dark-souls.jpg" alt="Ladrão">
+                    <p>Anel do Lobo</p>
+                    <img src="../imgs/4035.png" alt="Wolf">
                 </div>
-
                 <div class="class-item">
-                    <p>Bandido</p>
-                    <img src="../imgs/bandit-starting-class-male-dark-souls.jpg" alt="Bandido">
+                    <p>Anel da Serpente Prateada</p>
+                    <img src="../imgs/4022.png" alt="Wolf">
                 </div>
-
-                <div class="class-item">
-                    <p>Caçador</p>
-                    <img src="../imgs/hunter-starting-class-male-dark-souls.jpg" alt="Caçador">
-                </div>
-
-                <div class="class-item">
-                    <p>Feiticeiro</p>
-                    <img src="../imgs/sorcerer-starting-class-male-dark-souls.jpg" alt="Feiticeiro">
-                </div>
-
-                <div class="class-item">
-                    <p>Piromante</p>
-                    <img src="../imgs/pyromancer-starting-class-male-dark-souls.jpg" alt="Piromante">
-                </div>
-
-                <div class="class-item">
-                    <p>Clérigo</p>
-                    <img src="../imgs/cleric-starting-class-male-dark-souls.jpg" alt="Clérigo">
-                </div>
-
-                <div class="class-item">
-                    <p>Depravado</p>
-                    <img src="../imgs/deprived-starting-class-male-dark-souls.jpg" alt="Depravado">
-                </div>
-          
+            </div>
+            
+            
+            
         </div>
+
+
         
     </section>
+</main>
 
 </body>
 </html>
